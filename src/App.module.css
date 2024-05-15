@@ -32,8 +32,13 @@
     gap: var(--base-size-4);
     padding-bottom: var(--base-size-4);
     border-radius: 6px 6px 0 0;
+    padding-inline: 0px;
 }
 
+
+.readOnlyValue:hover *, .readOnlyValue:focus * {
+    color: var(--fgColor--accent);
+}
 .readOnlyValue:hover, .readOnlyValue:focus {
     cursor: pointer;
     background: var(--bgColor-muted);
