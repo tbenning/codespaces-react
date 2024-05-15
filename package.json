@@ -11,8 +11,8 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
-    "react": "https://react-builds.vercel.app/api/commits/29b66a538dfca92616c145c811f810ca2987ae29/packages/react",
-    "react-dom": "https://react-builds.vercel.app/api/commits/29b66a538dfca92616c145c811f810ca2987ae29/packages/react-dom",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^3.1.0"
   },

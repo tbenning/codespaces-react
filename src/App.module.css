@@ -1,51 +1,65 @@
 .card {
-    border-radius: 6px;
-    border: 1px solid;
-    border-color: var(--borderColor-default);
-    padding: var(--base-size-16);
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: var(--borderColor-default);
+  padding: var(--base-size-16);
 }
 
-.card p{
-    margin: 0;
-    padding:0;
-    font-size: var(--text-body-size-small);
+.card p {
+  margin: 0;
+  padding: 0;
+  font-size: var(--text-body-size-small);
 }
 
 .card h3 {
-    margin: 0;
-    padding: 0;
-    margin-bottom: var(--base-size-4);
-    font-size: var(--text-body-size-medium);
+  margin: 0;
+  padding: 0;
+  margin-bottom: var(--base-size-4);
+  font-size: var(--text-body-size-medium);
 }
 
 .textContainer {
-    width: 100%;
+  width: 100%;
 }
 
 .readOnlyValue {
-    border: none;
-    background: transparent;
-    padding-top: 6px; /* until we get the new variables in from katie */
-    display: flex;
-    border-bottom: 1px dashed var(--borderColor-emphasis);
-    font-size: var(--text-body-size-medium);
-    gap: var(--base-size-4);
-    padding-bottom: var(--base-size-4);
-    border-radius: 6px 6px 0 0;
-    padding-inline: 0px;
+  border: none;
+  background: transparent;
+  padding-top: 6px; /* until we get the new variables in from katie */
+  display: flex;
+  border-bottom: 1px dashed var(--borderColor-emphasis);
+  font-size: var(--text-body-size-medium);
+  gap: var(--base-size-4);
+  padding-bottom: var(--base-size-4);
+  border-radius: 6px 6px 0 0;
+  padding-inline: 0px;
 }
 
-
-.readOnlyValue:hover *, .readOnlyValue:focus * {
-    color: var(--fgColor--accent);
+.readOnlyValue:hover *,
+.readOnlyValue:focus * {
+  color: var(--fgColor--accent);
 }
-.readOnlyValue:hover, .readOnlyValue:focus {
-    cursor: pointer;
-    background: var(--bgColor-muted);
+.readOnlyValue:hover,
+.readOnlyValue:focus {
+  cursor: pointer;
+  background: var(--bgColor-muted);
 }
 
-.popover { 
-    border: 1px solid var(--borderColor-default);
-    border-radius: var(--borderRadius-medium);;
-    padding: var(--base-size-16);
+.popover {
+  border: 1px solid var(--borderColor-default);
+  border-radius: var(--borderRadius-medium);
+  padding: var(--base-size-16);
+}
+
+[popover] {
+  /* inset: unset; */
+  /* right: anchor(left); */
+  /* bottom: anchor(bottom); */
+  /* right: anchor(center); */
+}
+
+.primerPopoverContent {
+  padding: var(--base-size-16) !important;
+  transform: translateX(-80px) translateY(-144px);
+  font-size: var(--text-body-size-small);
 }
