@@ -1,0 +1,46 @@
+.card {
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: var(--borderColor-default);
+    padding: var(--base-size-16);
+}
+
+.card p{
+    margin: 0;
+    padding:0;
+    font-size: var(--text-body-size-small);
+}
+
+.card h3 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: var(--base-size-4);
+    font-size: var(--text-body-size-medium);
+}
+
+.textContainer {
+    width: 100%;
+}
+
+.readOnlyValue {
+    border: none;
+    background: transparent;
+    padding-top: 6px; /* until we get the new variables in from katie */
+    display: flex;
+    border-bottom: 1px dashed var(--borderColor-emphasis);
+    font-size: var(--text-body-size-medium);
+    gap: var(--base-size-4);
+    padding-bottom: var(--base-size-4);
+    border-radius: 6px 6px 0 0;
+}
+
+.readOnlyValue:hover, .readOnlyValue:focus {
+    cursor: pointer;
+    background: var(--bgColor-muted);
+}
+
+.popover { 
+    border: 1px solid var(--borderColor-default);
+    border-radius: var(--borderRadius-medium);;
+    padding: var(--base-size-16);
+}
